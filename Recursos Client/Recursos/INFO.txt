@@ -1,0 +1,17 @@
+- Carpeta contenedora de archivos básicos
+ para la base de datos del motor gráfico y de sonido.
+- Aquí puedes encontrar AOSetup.exe para configurar
+el motor gráfico a tu gusto, o bien para obtener
+una mejor performance en el rendimiento del juego.
+Es recomendable tener activada la opcion: "carga dinámica"
+y de funcionar mal el juego, intentar probar con activar:
+"Usar memoria de video" en 16 bits.
+
+
+
+
+
+
+
+
+08:11 a.m. 21/06/2011
