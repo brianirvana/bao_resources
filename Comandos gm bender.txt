@@ -1,0 +1,575 @@
+
+/INFORMACION                                -> no tiene utilidad aparente
+
+/MOTD                                       -> no se usa mas (mensaje de entrada de logueo)
+
+/ENCUESTA                                   -> bugueado
+
+/CONTRASEÑA                                 -> No funciona                                       
+
+/SHOWNAME                                   -> oculta el nombre
+
+/DONDE [Nick]
+
+/SILENCIAR [Nick]                           -> le mutea los comandos a gms a los users
+
+/TRABAJANDO                                 -> muestra una lista de los usuarios actualmente trabajando
+
+/RMATA                                      -> mata el npc y lo hace respawnear
+
+A partir de aca Nick puede ser YO para referirse a uno mismo
+
+/MOD [Nick] head [numero]
+
+/MOD [Nick] oro [numero]
+
+/MOD [Nick] level [numero]
+
+/MOD [Nick] SKILLS [NombreSkill] [numero]   -> modifica especificamente un skill especifico o TODOS al mismo tiempo
+
+/MOD [Nick] SKILLS TODOS [numero]
+
+/MOD [Nick] SKILLSLIBRES [numero]
+
+/MOD [Nick] clase [nombre de clase]
+
+/MOD [Nick] exp [numero]
+
+/MOD [Nick] cri [numero]                -> contador de criminales matados
+
+/MOD [Nick] ciu [numero]                -> contador de cuidadanos matados
+
+/MOD [Nick] cripoints [numero]          -> puntos de criminal
+
+/MOD [Nick] ciupoints [numero]          -> puntos de cuidadanos
+
+/MOD [Nick] nob [numero]                -> puntos de nobleza
+
+/MOD [Nick] ase [numero]                -> puntos de asesino
+
+/MOD [Nick] sex [Mujer o Hombre]                 
+
+/MOD [Nick] raza [nombre de raza]       -> elfo oscuro es "DROW"
+
+/MOD [Nick] mp [numero]
+
+/MOD [Nick] hp [numero]
+
+/MOD [Nick] mail [email]                -> fuerza el cambio de email
+
+/MOD [Nick] donate [numero]             -> puntos donantes 
+
+/MOD [Nick] dp [numero]                 -> puntos donantes 
+
+
+/MOD [Nick] canje [numero]              -> monedas de platino
+
+/MOD [Nick] canjes [numero]             -> monedas de platino
+
+/MOD [Nick] pp [numero]                 -> monedas de platino
+
+/MOD [Nick] gp [numero]                 -> guild points
+
+/MOD [Nick] guildpoints [numero]
+
+/MOD [Nick] hps [numero]                -> help points
+
+/MOD [Nick] helps [numero]
+
+/MOD [Nick] copy [Nick]                 -> copia todos los stats del segundo nick en el primero
+
+
+/INFO [Nick]                            -> hace el /est del nick o si clickeo a un pj
+
+/STAT [Nick]                            -> TRAE INFORMACION DE LA CUENTA DEL PEROSNAJE
+
+/BAL [Nick]                             -> Revisa el balance del nick
+
+/BOV [Nick]                             -> Revisa la boveda del nick y la printea en consola
+
+/REVIVIR [Nick]                         -> revivie o cura al usuario
+
+/ONLINEGM
+
+/ONLINEMAP                              -> trae los onlines que hay en el mapa en el que estas parado actualmente
+
+/PERDON [Nick]  
+
+/ECHAR [Nick]                           -> kickea del server al nick objetivo
+
+/CERRAR [Nick]                          -> no funciona
+
+/EJECUTAR [Nick]
+
+/BAN [Nick] @ [Motivo] @ [Nro dias]     -> Ahora se hace por panel gm
+
+/UNBAN [Nick]
+
+/SEGUIR                                 -> click arriba del npc hostil o no hostil (aveces tardan un poco en seguirte)
+
+/SUM [Nick]                             -> trae a un usuario abajo tuyo
+
+/CC                                     -> invoca un formulario para spanwear bichos
+
+/RESETINV                               -> borrar temporalmente todos los items del inventario del npc objetivo del click
+
+/LIMPIAR                                -> no anda actualmente (deberia llamar a limpiar la zona en la que estoy parado)
+
+/RMSG [mensaje]                         -> manda un mensaje por consola plano con fuente blanca
+
+/NICK2IP [Nick]                         -> muestra todos los pjs logueados desde la IP del nick objetivo
+
+/IP2NICK [IP]                           -> muestra todos los pjs logueados desde la ip del objetivo
+
+/ONCLAN [nombre clan]                   -> muestra todos los conectados actualmente del clan objetivo
+
+
+/CT [Numero mapa] [x] [y]               -> crea un portal a las coordenadas despues del comando
+
+/DT                                     -> destruye el portal clickeado
+
+/LLUVIA                                 -> hace llover o deja de llover en la zona en la que se activa el comando
+
+/FORCEMIDIMAP [numero midi] [numero mapa] -> cambia el midi que se esta reproduciendo actualmente en un mapa (no sobrescribe el que esta guardado, al reloguear el cliente deberia vovler el original)
+
+/FORCEWAVMAP [numero wav] [numero mapa] -> fuerza la reproduccion de un wav por numero en un mapa especifico
+
+
+/REALMSG [Mensaje]                      -> envia el mensaje a toda la faccion real
+
+/CAOSMSG [mensaje]                      -> envia el mensaje a toda la faccion caotica
+
+/CIUMSG [mensaje]                       -> envia el mensaje a toda la faccion cuidadana
+
+/CRIMSG [mensaje]                       -> envia el mensaje a toda la faccion criminal
+
+/TALKAS [mensaje]                       -> click sobre un npc, el mensaje escrito luego de talkas figurara como que lo dice el npc
+
+/MASSDEST                               -> borra todos los items tirados en el piso que esten en pantalla
+
+/ACEPTCONSE [Nick]                      -> fuerza al nick a entrar al consejo de angrod
+
+/ACEPTCONSECAOS [Nick]                  -> fuerza al nick a entrar en el concilio
+
+/PISO                                   -> muestra los objetos en el piso de la zona actual en la que se esta parado
+
+/ESTUPIDO [Nick]                        -> le pone el efecto estupido permanente
+
+/NOESTUPIDO [Nick]                      -> le remueve el efecto estupido
+
+/KICKCONSE [Nick]                       -> remueve del concilio o armada al nick objetivo 
+
+/TRIGGER                                -> muestra el trigger en el tile que se esta parado ahora mismo
+
+/TRIGGER [numero de trigger]            -> agrega o cambia el trigger en el que se esta parado
+
+/BANIPLIST 
+
+/BANIPRELOAD 
+
+/MIEMBROSCLAN [nombre de clan]          -> muestra los actuales integrantes del clan
+
+/BANCLAN [nombre de clan]               -> banea a todos los miembros de un clan
+
+/BANIP [IP] [mensaje]                   -> banea una ip y el motivo del ban es el mensaje
+
+/BANIP [Nick] [mensaje]                 -> banea una ip 
+
+/UNBANIP [IP]                           -> unbanea una ip
+
+/CI [numero obj] @ [cantidad]           -> crea arriba de tu personaje el item * la cantidad seleccionada
+
+/DEST                                   -> borra el objeto en el que estas parado
+
+/NOCAOS [Nick]                          -> remueve del concilio y lo deja definitvamente expulsado de la legion
+
+/NOREAL [Nick]                          -> remueve del consejo de angrod y lo deja definitivamente expulsado de la armada
+
+/FORCEMIDI [numero midi]                -> fuerza en el mapa que se esta parado a reproducir el midi seleccionado
+
+/FORCEWAV [numero wav]                  -> fuerza a el mapa en el que se esta parado a reproducir el wav seleccionado
+
+/BORRARPENA [Nick] @ 
+
+/BLOQ                                   -> crea un bloqueo en el tile en el que estas parado
+
+/MATA                                   -> mata al npc clickeado y su respawn
+
+/MASSKILL                               -> mata a todos los npcs en el area de vision
+
+/LASTIP [Nick]                          -> revisa con que ip se conecto el nick ingresado
+
+/MOTDCAMBIA                             -> no se usa mas
+
+/SMSG                                   -> envia a todos los usuarios un broadcast similar al rmsg pero por respuesta de formulario (TIPO CONSULTA RESPONDIDA) en vez de consola
+
+/ACC [nro npc] @ [cantidad]             -> crea el npc                                    
+
+/RACC [nro npc] [x] [y] [respawntime] [npccount] [nivel] [factor%]
+
+/CREATENPC                              -> no funciona
+
+/EDITDAT                                -> Abre formulario de dats para editar en tiempo real
+
+/HABILITAR                              -> restringe o habilita el server para que entren usuarios comunes
+
+/APAGAR                                 -> mata el server
+
+/CONDEN [Nick]                          -> fuerza el estado criminal el el objetivo
+
+/RAJAR [Nick]                           -> resetea todos los flags y contadores a 0 (super perdon)
+
+/RAJARCLAN [Nick]                       -> fuerza al usuario a salir del clan
+
+/LASTEMAIL [Nick]                       -> trae el ultimo email de la cuenta del objetivo (no funciona temporalmente)
+
+/APASS [Cuenta] @ [Contraseña]          -> forzar cambio de contraseña a cuenta objetivo
+
+/AEMAIL [Nick]-[Nuevo email]            -> forzar el cambio de email del nick objetivo
+
+/ANAME [Nick origen] @ [Nick destino]   -> fuerza el cambio de nick del nick de origen al nick destino
+
+/CENTINELAACTIVADO                      -> activa o desactiva el centinela (obsoleto)
+
+/DOBACKUP                               -> fuerza worldsave
+
+/SHOWCMSG [Nombre de clan]              -> espia el chat del clan elegido
+
+/GUARDAMAPA                             -> fuerza un map save en el mapa que estoy parado actualmente
+
+/MODMAPINFO PK [0 o 1]                  -> hace la zona segura para 0, hace la zona insegura para 1
+
+
+/MODMAPINFO BACKUP [0 o 1]              -> obsoleto
+
+/MODMAPINFO RESTRINGIR [NEWBIE o ARMADA o CAOS o faccion]          -> restringe la zona a los objetivos posibles (solo si acceden a la zona mediante un tp)
+
+/MODMAPINFO RESTRINGIR NO               -> saca las restricciones de la zona en la que se esta parado
+
+/MODMAPINFO MAGIASINEFECTO [0 o 1]      -> hace o deshaze la posibilidad de tirar magia en la zona en la que estoy parado
+
+/MODMAPINFO INVISINEFECTO [0 o 1]       -> hace o deshaze la posibilidad de tirarse el hechizo invisible en la zona en la que estoy parado
+
+/MODMAPINFO RESUSINEFECTO [0 o 1]       -> hace o deshaze la posiblidad de darse resu en la zona en la que estoy parado
+
+/MODMAPINFO BENDERSINEFECTO [0 0 1]     -> hace o deshaze la posiblidad de tirar hechizos con flag benderao en la zona en la que estoy parado
+
+/MODMAPINFO ZONA BOSQUE                 -> Asigna el efecto a la zona en la que se esta parado
+
+/MODMAPINFO ZONA NIEVE                  -> Asigna el efecto a la zona en la que se esta parado (con esto lazaro rompe la lluvia de harrogath)
+
+/MODMAPINFO ZONA DESIERTO               -> Asigna el efecto a la zona en la que se esta parado
+
+/MODMAPINFO ZONA CUIDAD                 -> Asigna el efecto a la zona en la que se esta parado
+
+/MODMAPINFO ZONA CAMPO                  -> Asigna el efecto a la zona en la que se esta parado
+
+/MODMAPINFO ZONA DUNGEON                -> Asigna el efecto a la zona en la que se esta parado    
+
+/MODMAPINFO ZONA AGITE                  -> Asigna el efecto a la zona en la que se esta parado
+
+/MODMAPINFO ZONA SICAE                  -> Asigna el efecto a la zona en la que se esta parado
+
+/MODMAPINFO ZONA NOCAE                  -> Asigna el efecto a la zona en la que se esta parado
+
+/MODMAPINFO LUZ [numero velocidad] - [numero red] - [numero green] - [numero blue] -> asgina la luz a la zona, el primer parametro es la velocidad y los otros 3 parametros son la combinacion de colores
+
+/MODMAPINFO NIEBLA [numero intensidad] - [numero red] - [numero green] - [numero blue] -> asigna niebla a la zona, el primer parametro es la intensidad de la niebla, los otros 3 parametros son la combinacion de colores
+
+/GRABAR                                 -> fuerza a guardar todos los charfiles
+
+/BORRAR SOS                             -> obsoleto (ahora es desde panel sos)
+
+/NOCHE                                  -> le pone mucha niebla a la zona
+
+/ECHARTODOSPJS                          -> kickea a todos los usuarios sin privilegios del servidor
+
+/TCPESSTATS                             -> no funciona
+
+/RELOADNPCS [Nro 0 a 6]                 -> manda a guardar el mundo y recarga los npcs, 0 = todos, 1 = respawn, 2 = norespawn, 3 = mapa, 4 = zona, 6 = bots
+
+/RELOADSINI                             -> manda a recargar el server ini y el balance dat
+
+/RELOADHECHIZOS                         -> manda a recargar el hehcizos dat
+
+/RELOADOBJ                              -> manda a recargar el obj dat
+
+/CHATCOLOR [nro red] [nro green] [nro blue] -> cambia el color del chat
+
+/IGNORADO                               -> hace intargeteable por npcs hostiles y usuarios a el gm que lo usa
+
+/SLOT [Nick]@[nro inventario]           -> trae la informacion del item que tiene el usuario en ese slot del inventario
+
+/BUSCAR [Palabra]                       -> busca el numero de indice de todos los resultados similares a la palabra
+
+/SEVA [Nro mapa] [X] [Y]                -> Hace que todos los usuarios al morir los usuarios aparezcan en esa posicion
+
+/ACT_FACCION                            -> activa o desactiva el chat faccionario
+
+/ACT_BANDERAS                           -> activa o desactiva el sistema de banderas
+
+/RESET_PUNTOS                           -> resetea los puntos de las banderas
+
+/ANUNCIAR_PUNTOS TOALL                  -> Anuncia a todos los usuarios del servidor los puntos acumulados por las facciones en las banderas
+
+/ANUNCIAR_PUNTOS TOME                   -> le informa a la persona casteando el comando los puntos acumulados por las facciones en las banderas
+
+/ANUNCIAR_PUNTOS TOZONE                 -> le informa a todas las personas en la zona los puntos acumulados por las facciones en las banderas
+
+/TIEMPO_CAPTURA [Nro tiempo]            -> setea la cantidad de tiempo necesaria para capturar las banderas
+
+/CANCELQUEST                            -> Cancela el torneo en curso
+
+/LIMPIARCLON                            -> manda a limpiar bichos clonados en todo el mundo
+
+/REFRESHLOGIN                           -> no parece funcionar, tenia algo que ver con el tiempo en carcel
+
+/TRANSFORMAR [nro velocidad]            -> el gm que utiliza el comando queda estatico y posee el cuerpo y movimiento del npc clickeado, el parametro es para indicar la velocidad con la que se mueve el npc controlado
+
+/BORRARCLAN [nombreclan]                -> fuerza a un clan a borrarse
+
+/CUENTA [Numero]                        -> inicia una cuenta regresiva que se imprime en consola desde el numero ingresado hasta 0
+
+/ACLAN [nombre origen] @ [nombre desitno] -> fuerza el cambio de nombre de un clan
+
+/SETNAME [palabra] @ [NRO 0-7]          -> crea una descripcion que se muestra como nombre del personaje luego de usar el comando /showname, y el segundo parametro indica el color
+
+/SACARORO [Numero]                      -> le saca al usuario seleccionado la cantidad indicada en el numero y la guarda en un pozo
+
+/SACARPUNTOS [Numero]                   -> le saca al clan del usuario seleccionado la cantidad indicada en el numero y la guarda en un pozo
+
+/DARORO [Numero]                        -> le da al usuario seleccionado la cantidad indicada en el numero retirandola del pozo
+
+/DARPUNTOS [Numero]                     -> le da al clan del usuario seleccionado la cantidad indicada en el numero retirandola del pozo
+
+/EXPLOTAR                               -> manda a explotar al usuario clickeado? (es necesario antes setear la posicion de explosion)
+
+/SETEXPLOTAR [Nro mapa] [X] [Y]         -> setea una posicion de explosion en una coordenada de un mapa
+
+/UPDATESQL [nro id] [nombre tabla] [nombre parametro] [valor nuevo]
+
+/GETSQL [nro id] [nombre tabla] [nombre parametro] [valor]
+
+/ANALIZAR [Nick]                        -> devuelve a la consola del gm que lo use la lista de procesos actualmente corriendo en la pc del nick objetivo
+
+/AT [Nick]                              -> protege al usuario seleccionado o al ingresado por parametro
+
+/PROTEGER [Nick]                        -> protege al usuario seleccionado o al ingresado por parametro
+
+/PR [Nick]                              -> protege al usuario seleccionado o al ingresado por parametro
+
+/ATENDER [Nick]                         -> protege al usuario seleccionado o al ingresado por parametro
+
+/GMADMIN [Nick]                         -> le da privilegios de administrador al nick objetivo
+
+/GMDIOS [Nick]                          -> le da privilegios de dios al nick objetivo
+
+/GMSEMIDIOS [Nick]                      -> le da privilegios de semidios al nick objetivo
+
+/GMCONSEJERO [Nick]                     -> le da privilegios de consejero al nick objetivo
+
+/GMROLMASTER [Nick]                     -> le da privilegios de rolemaster al nick objetivo
+
+/GMSACAR [Nick]                         -> le saca los privilegios al nick objetivo
+
+/ADDUSER [Numero]                       -> Crea un numero falso para agregar al contador de usuarios y el numero ingresado es el porcentaje de calculo
+
+/SHOW TORNEO                            -> Muestra el formulario torneo, similar al boton T en cliente gm
+
+/BUSCARNPC [Palabra]                    -> busca en la lista de npc los npc cuyo nombre coincida con la palabra ingresada y devuelve su indice a la consola
+
+
+
+
+Comandos de usuarios
+
+/PROMEDIO                               -> calcula el promedio de vida de la clase y raza de la persona que lo usa
+
+/RESETEAR                               -> Resetea el personaje, rerolleando la cara y la vida inicial
+
+/IREY                                   -> llama al formulario para crear un evento de /participar acorde al comando ingresado
+
+/IDEATHMATCH                            -> llama al formulario para crear un evento de /participar acorde al comando ingresado
+
+/ISURVIVOR                              -> llama al formulario para crear un evento de /participar acorde al comando ingresado
+
+/ITORNEO                                -> llama al formulario para crear un evento de /participar acorde al comando ingresado
+
+/IGUERRACLAN                            -> llama al formulario para crear un evento de /participar acorde al comando ingresado
+
+/NUEVOLIDER [nombre]                    -> transforma al nombre ingresado en el nuevo lider de la party (tambien se puede hacer desde formulario partys)
+
+/TORNEO                                 -> AL PARECER NO HACE normalidad
+
+/PAREJA                                 -> manda invitacion de pareja durante torneo 2v2
+
+/HOGAR                                  -> cuando estas muerto, inicia la cuenta para volver a la cuidad hogar automaticamente
+
+/CONFIRMAR                              -> confirma el envio del guildpoint al usuario que se uso en /reputacion
+
+/REPUTACION [Nick]                      -> Inicia el proceso de envio de guildpoint al usuario objetivo
+
+/MIREPUTACION                           -> muestra en consola los usuarios que te vendieron o donaron su guildpoint
+
+/ONLINE                                 -> muestra la cantidad de usuarios online
+
+/SALIR                                  -> programa la salida del juego
+
+/MERCADO                                -> abre el formulario de MERCADO de personajes
+
+/DESC [mensaje]                         -> Cambia la info que muestra cuando se clickea la persona (el comando aplica en el usuario clickeado) (vuelve a la normalidad al reloguear)
+
+/APOSTAR [numero]                       -> npc apostador
+
+/RETIRAR                                -> habiendo hecho click arriba del lider de la faccion, te retira de dicha faccion
+
+/RETIRAR [numero]                       -> despues de haber clickeado al banquero, el numero es la cantidad de plata que retira de la cuenta balance
+
+/DEPOSITAR [numero]                     -> despues de haber clickeado al banquero, el numero es la cantidad de plata que se deposita en la cuenta balance
+
+/PING                                   -> consulta al servidor cuanto es lo que tarda en comunicarse con la persona que envia el comando
+
+/ONLINEREAL                             -> Consulta los miembros que hay conectados de la faccion y los devuelve como una lista en la consola de la persona que puso el comando
+
+/ONLINECAOS                             -> Consulta los miembros que hay conectados de la faccion y los devuelve como una lista en la consola de la persona que puso el comando
+
+/ROL [mensaje]                          -> mensaje que se displayea en consola de los Rms      
+
+/GM                                     -> abre la consola de ayuda gm
+
+/BUG                                    -> abre la consola de reportar un bug
+
+/DESC [mensaje]                         -> edita la descripcion que aparece cuando alguien hace click en tu personaje
+
+/VOTO [Nick]                            -> durante elecciones de clan abiertas
+
+/PENAS [Nick]                           -> devuelve el prontuario del nick ingresado
+
+/FMSG [mensaje]                         -> envia el mensaje a toda la faccion del personaje que este usando el comando (solo armada y legion)
+
+/CMSG [mensaje]                         -> envia un mensaje al clan, similar a shortcut boton suprimir
+
+/PMSG [mensaje]                         -> envia un mensaje a la party actual, similar a shortcut boton suprimir
+
+/CENTINELA [respuesta]                  -> luego de hacer click en el centinela, la respuesta es la que debe coincidir con la respuesta del centinela
+
+/ONLINECLAN                             -> devuelve a la consola del usuario que lo usa los miembros del clan actualmente conectados
+
+/ONLINEPARTY                            -> devuelve a la consola del usuario que lo usa los miembros de la party actualmente conectados
+
+/UPTIME                                 -> devuelve a la consola el tiempo on del server
+
+/SALIRPARTY                             -> hace que el usuario que usa el comando salga de la party 
+
+/CREARPARTY                             -> hace que el usuario que usa el comando cree una nueva part (similar a boton en panel party)
+
+/PARTY                                  -> envia una solicitud para unirse a la party al usuario al que le hayas hecho click
+
+/RECOMPENSA                             -> luego de hacerle click al lider de la faccion, para poder subir de rango
+
+/AYUDA                                  -> clickear a una persona y despues escribir el comando para pedirle ayuda
+
+/EST                                    -> imprime en consola estadisticas generales del pj
+
+/DENUNCIAR [Nick]                       -> abre el panel de denuncias que envia una denuncia formal al panel de denuncias con objetivo el nick ingresado
+
+/FUNDARCLAN                             -> abre el formulario para la creacion de clan (deja crear clan siempre y cuando el usuario tengo 10 guildpoints)
+
+/ECHARPARTY [Nick]                      -> echa de la party actual al nick ingresado (similar a boton en panel party)
+
+/PARTYLIDER [Nick]                      -> hace lider de la party al nick ingresado (similar a boton en panel party)                 
+
+/ACCEPTPARTY [Nick]                     -> acepta al nick ingresado a entrar a la party siempre y cuando haya enviado solicitud anteriormente
+
+/SALIRCLAN                              -> hace que el usuario que lo use deje su clan actual
+
+/BALANCE                                -> despues de hacer click sobre el hombre boveda, consulta la cantidad de oro que se encuentra actualmente en la cuenta balance
+
+/QUIETO                                 -> ordena a la mascota cliqueada a quedarse quieta en el lugar
+
+/ACOMPAÑAR                              -> ordena a la mascota cliqueada a acompañar a su amo
+
+/ENTRENAR                               -> abre el formulario para invocar criaturas de entrenamiento basico para aprender a jugar (solo en angrod)
+
+/DESCANSAR                              -> luego de hacer click en una fogata, el personaje se pone a descansar, mecanica que recupera energia aun lloviendo o estando desnudo (para volver a moverse tipear el comando nuevamente)
+
+/MEDITAR                                -> el personaje comienza a meditar para recuperar el mana perdido, (similar a shortcut con boton F5)
+
+/RESUCITAR                              -> similar a doble click a sacerdote
+
+/CURAR                                  -> similar a doble click a sacerdote
+
+/COMERCIAR                              -> el comando abre el formulario de comercio con los npcs, y en caso de usarlo en los usuarios inicia comercio seguro con ellos
+
+/BOVEDA                                 -> similar a doble click sobre el hombre banquero
+
+/ENLISTAR                               -> luego de hacer click sobre el lider de la faccion, se ingresa en la faccion siempre y cuando se cumpla con los requisitos estipulados
+
+/BMSG [mensaje]                         -> envia un mensaje a consola que solo se lee entre concilios
+
+/INV [Nick]                             -> revisa la boveda del nick ingresado
+
+
+
+
+Comandos CONSEJEROS
+
+/MMSG [mensaje]                         -> envia un mensaje a mapa en el que estoy parado (tipo broadcast)
+
+/GMSG [mensaje]                         -> envia el mensaje tipeado a todos los gms
+
+/IRCERCA [Nick]                         -> teletransporta al consejero a 4 tiles de distancia del nick ingresado
+
+/HORA                                   -> devuelve el tiempo del server a consola
+
+/NENE [numero] [NroNPC]                 -> trae los npcs hostiles y no hostiles del mapa 0_hositles_todoelmapa 1_no_hostiles_todoelmapa 2_hostiles_zona  3_no_hostiles_zona 4_posicion_especifica_de_npc
+
+/REM [mensaje]                          -> escribe un comentario en el log del juego
+
+/TELEPLOC                               -> CLick derecho con gm
+
+/TELEP [Nick] [mapa] [x] [y]            -> teletransporta al gm o al nick que use el comando a el mapa ingresado en las coordenadas ingresadas
+
+/SHOW SOS                               -> muestra el formulario de responder consultas (tecla S en cliente gm)
+
+/INVISIBLE                              -> Hace invisible e intargeteable al gm
+
+/IRA [Nick]                             -> lleva al personaje que usa el comando a el personaje ingresado   
+
+/OCULTANDO                              -> muestra una lista de los usuarios actualmente ocultandose
+
+/PANELGM                                -> tecla P en cliente gm
+
+/MOD YO head [numero]                   -> cambia la cabeza del consejero por la ingresada en el numero
+
+/MOD YO level [numero]                  -> cambia el nivel del consejero por el ingresado en el numero
+
+/MOD YO SKILLS [NombreSkill] [numero]   -> modifica especificamente un skill especifico
+
+/MOD YO cri [numero]                    -> contador de criminales matados
+
+/MOD YO ciu [numero]                    -> contador de cuidadanos matados
+
+/MOD YO sex [Mujer o Hombre]            -> cambia el sexo del consejero segun lo elegido
+
+/MOD YO raza [nombre de raza]           -> cambia la raza del consejero segun lo elegido (elfo oscuro es "DROW")
+
+/AT [Nick]                              -> protege al usuario seleccionado o al ingresado por parametro
+
+/PROTEGER [Nick]                        -> protege al usuario seleccionado o al ingresado por parametro
+
+/PR [Nick]                              -> protege al usuario seleccionado o al ingresado por parametro
+
+/ATENDER [Nick]                         -> protege al usuario seleccionado o al ingresado por parametro
+
+/MISPJS [Nombre cuenta]                 -> devuelve en la consola del gm que ingresa el comando los pjs a nombre de esa cuenta y si esta logueado o nombre
+
+mmmmmmmmmmmmmmmmmmmmmmmm
+/EXPLOTAR                               -> manda a explotar al usuario clickeado? (es necesario antes setear la posicion de explosion)
+
+/SETEXPLOTAR [Nro mapa] [X] [Y]         -> setea una posicion de explosion en una coordenada de un mapa
+
+/ANALIZAR [Nick]                        -> devuelve a la consola del gm que lo use la lista de procesos actualmente corriendo en la pc del nick objetivo
+
+/ACLAN [nombre origen] @ [nombre desitno] -> fuerza el cambio de nombre de un clan
+mmmmmmmmmmmmmmmmmmmmmmmmm
