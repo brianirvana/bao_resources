@@ -1,0 +1,10 @@
+mause arriba > sombra interior angulo 90 distancia 5px opacidad 75
+mause click > resplandor interior opacidad 80 color f41d1d
+
+
+
+inventario/lanzar (color f0a945) tambnien para info
+
+click a > trazo tamaño 1x posicion inferior, modo "Trama" color ff0000
++
+click c>  resplandor interior fusion "trama" opacidad 75 color 920a11
